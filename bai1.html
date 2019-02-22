@@ -36,7 +36,7 @@
             let from_currency = document.getElementById('from_currency');
             let to_currency = document.getElementById('to_currency');
             if(from_currency.value==='vnd' && to_currency.value==='usd'){
-                document.getElementById('changed').innerHTML = amount*23000;
+                document.getElementById('changed').innerHTML = amount/23000;
             }
             if(from_currency.value==='eur' && to_currency.value==='usd'){
                 document.getElementById('changed').innerHTML = amount*1.13;
